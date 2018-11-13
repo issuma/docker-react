@@ -3,9 +3,9 @@
 # the builder step, that creates the build folder in the current directory
 FROM node:alpine as builder
 WORKDIR  '/app'
-COPY package.json .
+COPY package*.json ./
 RUN npm install
-COPY . .
+COPY ./ ./
 RUN npm run build
 ##############################################
 # end builder phase
