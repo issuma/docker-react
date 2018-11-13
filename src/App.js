@@ -14,6 +14,9 @@ class App extends Component {
             new <b><em>paragraph</em></b>.
             </p>
           </p>
+          <p>
+          And this is another change.
+          </p>
           <a
             className="App-link"
             href="https://reactjs.org"
