@@ -15,7 +15,7 @@ class App extends Component {
             </p>
           </p>
           <p>
-          And this is another change.
+          And this is another change, using the feature branch.
           </p>
           <a
             className="App-link"
